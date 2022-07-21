@@ -1,9 +1,20 @@
 import React from "react";
-
-export default function pp() {
+import Link from "next/link";
+export default function blog() {
   return (
-    <div>
-      <h1>pp</h1>
+    <div style={{ textAlign: "center" }}>
+      <h1>This blog page</h1>
+      <Link href="blogs/1">
+        <a>blog 1</a>
+      </Link>
+      <br />
+      <Link href="blogs/2">
+        <a>blog 2</a>
+      </Link>
+      <br />
+      <Link href="blogs/3">
+        <a>blog 3</a>
+      </Link>
     </div>
   );
 }
