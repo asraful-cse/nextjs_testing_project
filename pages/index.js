@@ -12,15 +12,14 @@ export default function Home() {
   return (
     <div style={{ textAlign: "center" }}>
       <h1>Home page------------</h1>
-      <Link href="/about">
-        <a>
-          <button>Click to About</button>
-        </a>
-      </Link>
-
       <Link href="/blogs">
         <a>
           <button>Click to Blogs</button>
+        </a>
+      </Link>
+      <Link href="/about">
+        <a>
+          <button>Click to About</button>
         </a>
       </Link>
       <br />
